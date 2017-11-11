@@ -1,0 +1,437 @@
+*
+{
+	margin:0;
+	padding:0;
+  font-family:"微软雅黑";
+}
+body
+{
+  background-color:#FFF;
+  background-image:url(../images/bg.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom;
+}
+
+  /*导航栏*/
+  .top{
+    height: 562px;
+  }
+  .nav
+ {
+	width:100%;
+	height:65px;
+  background-color: rgba(0, 0, 0, 0.8);
+ }
+ .nav_content
+ {
+	width:1200px;
+	margin:0 auto;
+	height: 65px;
+  overflow: hidden;
+	}
+ .nav_content li
+ {
+	float:left;
+  text-align: center;
+  list-style-type:none;
+	width:20%;
+  height: 52px;
+  padding-top: 13px;
+	}
+ .nav_content a{
+  vertical-align: middle;
+ }
+ .nav_content p{
+   color: #ffffff;
+   font-weight:bolder;
+ }
+ .nav_content span{
+   color: #515152;
+   font-weight:bolder;
+   font-size: 10px;
+ }
+ .nav_content a:link,.nav_content a:visited
+ {
+	text-decoration:none;
+ }
+
+ .nav_content a:hover,.nav_content a:active
+ {
+	text-decoration:none;
+ }
+  /*首页大图*/
+  .banner{
+      text-align:center;
+  }
+  .banner img{
+      width:100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+  }
+  .banner h1{
+      padding-top:43vh;
+      font-size: 270%;
+  }
+  .banner p{
+      padding-top:10px;
+      font-size: 120%;
+
+  }
+
+/*主要内容*/
+.main{
+  width:1200px;
+	margin:0 auto;
+  overflow : hidden;
+}
+.main_top{
+  overflow : hidden;
+}
+.main_bottom{
+  overflow : hidden;
+}
+  /*新闻部分*/
+  .news{
+    width: 800px;
+    float: left;
+    margin-right: 80px;
+  }
+  .news_header{
+    height: 40px;
+    margin-top: 42px;
+    margin-bottom: 15px;
+  }
+  .news_header img{
+    height: 40px;
+    float:left;
+  }
+  .news_header p{
+    font-size: 22px;
+    padding-left: 10px;
+    line-height:40px;
+    float: left;
+
+  }
+  .news_line{
+    display: block;
+    height: 3px;
+  }
+  .news_content1{
+    overflow : hidden;
+    height: 160px;
+  }
+  .news_content_img_overflow{
+    float: left;
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .news_wrap img{
+    -webkit-transform:scale(1);
+  	-moz-transform:scale(1);
+  	-o-transform:scale(1);
+    transform:scale(1);
+  	-webkit-transition-duration: 0.5s;
+  	-moz-transition-duration: 0.5s;
+  	-o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .news_wrap img:hover {
+    -webkit-transform:scale(1.2);
+  	-moz-transform:scale(1.2);
+  	-o-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+  .news_content1:hover{
+    background-color: #f5f5f5;
+  }
+  .news_wrap{
+    display : table-cell;
+    height : 160px;
+    vertical-align: middle;
+  }
+  .news_content_img{
+    float: left;
+    height: 120px;
+    width: 200px;
+  }
+  .news_content_word{
+    padding-left: 20px;
+    float: left;
+    width: 580px;
+  }
+  .news_content_word h3{
+    margin-bottom: 20px;
+  }
+  .news_content_word p{
+    color: #a7a7a7;
+    font-size: 85%;
+    line-height: 23px;
+  }
+  .news_hr{
+    height:1px;
+    border:none;
+    border-top:1px dashed #0066CC;
+  }
+  .news_footer{
+    height: 50px;
+    width: 800px;
+    overflow : hidden;
+    background-color: #eeeeee;
+  }
+  .news_footer_wrap{
+    display : table-cell;
+    height : 50px;
+    width: 800px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .news_footer_wrap img{
+    margin-left: 10px;
+  }
+
+  /*嘉宾部分*/
+  .guest{
+    float: left;
+    width: 320px;
+  }
+  .guest_header{
+    height: 40px;
+    margin-top: 42px;
+    margin-bottom: 15px;
+  }
+  .guest_header img{
+    height: 40px;
+    float:left;
+  }
+  .guest_header p{
+    font-size: 22px;
+    padding-left: 10px;
+    line-height:40px;
+    float: left;
+  }
+  .guest_content img:first-child{
+    margin-bottom: 10px;
+  }
+  .guest_footer{
+    width: 320px;
+    margin-top: 83px;
+  }
+  .guest_footer p{
+    width: 260px;
+   position:absolute;
+   margin-top: 210px;
+   margin-left: 20px;
+   padding-left: 20px;
+   color: #fff;
+   font-weight: 600;/*粗细*/
+   font-size: 100%;/*大小*/
+   word-wrap:break-word;
+   line-height: 25px;
+   border-left: 2px solid #df6d1f;
+   -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+   -moz-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+   -o-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+   mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
+  /*现场部分*/
+  .live_header{
+    height: 40px;
+    margin-top: 42px;
+    margin-bottom: 15px;
+  }
+  .live_header img{
+    height: 40px;
+    float:left;
+  }
+  .live_header p{
+    font-size: 22px;
+    padding-left: 10px;
+    line-height:40px;
+    float: left;
+  }
+  .live table{
+    border-collapse:separate;
+    border-spacing:1px;
+  }
+/*底部版权*/
+
+.footer_content{
+   text-align:center;
+   height: 30px;
+   margin-top: 75px;
+ }
+ .footer_content ul{
+   display:inline-block;
+ }
+.footer_content li{
+   float:left;
+   padding:0 10px;
+   list-style-type: none;
+   border-left: 1px solid #a7a7a7;
+ }
+ .footer_content li:first-child {
+   border-left: 0;
+ }
+ .footer_content a:link,.footer_content a:visited
+ {
+   text-decoration:none;
+ }
+ .footer_content a:hover,.footer_content a:active
+ {
+   text-decoration:none;
+ }
+ .footer_content p,.footer_copyright p{
+   color: #a7a7a7;
+ }
+ .footer_copyright{
+   text-align:center;
+   margin-bottom: 60px;
+}
+
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+.grid {
+	overflow: hidden;
+}
+.grid figure figcaption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.effect-zoe{
+  position: relative;
+	overflow: hidden;
+}
+.effect-zoe figcaption {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-100%,0);
+	transform: translate3d(0,-100%,0);
+}
+
+.effect-zoe-h1{
+  font-weight: 300;/*粗细*/
+  line-height:401px;/*垂直居中*/
+  text-align: center;/*水平居中*/
+}
+.effect-zoe-h2{
+  font-weight: 300;
+  line-height:200px;
+  text-align: center;
+}
+.effect-zoe-h3{
+  font-weight: 300;
+  line-height:160px;
+  text-align: center;
+}
+.effect-zoe:hover figcaption{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/*--------------------------------*/
+/***** Underline From Center *****/
+/*------------------------------*/
+
+.underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    overflow: hidden;
+}
+.underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #df6d1f;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.underline-from-center:hover:before, .underline-from-center:focus:before, .underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+
+/*--------------------------------------*/
+/***** 图片轮播效果，运用swiper插件 *****/
+/*-----------------------------------*/
+.guest{
+  height: 650px;
+  width: 320px;
+  margin-left: 0;
+}
+.guest_content_box{
+  position:absolute;
+  margin-top: 260px;
+}
+.guest_content_top{
+  margin-bottom: 10px;
+}
+.guest_content_box p{
+  background-image:url(../images/bg_name.png);
+  padding:5px 15px 5px 10px;
+  color: #fff;
+}
+/*轮播效果*/
+.swiper-container {
+ width: 100%;
+ height: 100%;
+
+}
+.swiper-slide {
+ text-align: center;
+ font-size: 18px;
+ background: #fff;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-box-pack: center;
+ -ms-flex-pack: center;
+ -webkit-justify-content: center;
+ justify-content: center;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+ align-items: center;
+}
+/*修改swiper轮播图中的小按钮*/
+.swiper-pagination-bullet{
+  background:#a7a7a7;
+}
+.swiper-pagination-bullet-active{
+  background:#df6d1f;
+}
+.swiper-pagination{
+  margin-left: 130px;
+}
+.swiper-pagination-bullet{
+  width:12px;
+  height:12px;
+}
+.swiper-pagination span{
+  margin:20px 5px 50px 5px;
+
+
+}
